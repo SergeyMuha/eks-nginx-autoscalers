@@ -23,3 +23,4 @@ kubectl run -i --tty load-generator --rm --image=busybox:1.28 --restart=Never --
 * Better folder structure. Move Autoscaler module and other not related to EKS modules and helm charts to different repo/folders
 * S3 State Backup  
 * Dynamo DB  lock
+* Use Karpenter as more advanced scaling based on application requirements.
